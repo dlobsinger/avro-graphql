@@ -1,0 +1,31 @@
+{
+  "name": "avro-graphql",
+  "version": "0.1.0",
+  "description": "GraphQL schema generator for Apache Avro types",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT",
+  "keywords": [
+    "avro",
+    "graphql",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/crypto-random-string": "^1.0.0",
+    "@types/jest": "^23.3.5",
+    "@types/node": "^10.12.0",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "typescript": "~2.8.0"
+  },
+  "dependencies": {
+    "crypto-random-string": "^1.0.0"
+  }
+}
